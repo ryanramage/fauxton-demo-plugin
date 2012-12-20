@@ -14,7 +14,7 @@ function(app, FauxtonAPI) {
   };
 
   Demo.Views.Example = FauxtonAPI.View.extend({
-    template: "fauxton_plugins/demo/templates/example"
+    template: "addons/fauxton-demo-plugin/templates/example"
   });
 
   Demo.Routes = {
