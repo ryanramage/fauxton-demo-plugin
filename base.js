@@ -1,6 +1,7 @@
 define([
-  "app",
-  "api"
+  "../fauxton/js/app",
+  "../fauxton/js/api",
+  "text!./templates/example.html"
 ],
 
 function(app, FauxtonAPI) {
@@ -14,7 +15,7 @@ function(app, FauxtonAPI) {
   };
 
   Demo.Views.Example = FauxtonAPI.View.extend({
-    template: "addons/fauxton-demo-plugin/templates/example"
+    template: "../../fauxton-demo-plugin/templates/example"
   });
 
   Demo.Routes = {
